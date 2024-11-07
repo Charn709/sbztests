@@ -319,13 +319,13 @@ def generate_battle_report(army_a, army_b, winner, total_turns):
 # Define troops and their skills
 
 # Static Skills
-master_brawler = Skill("Master Brawler", "damage_increase", 10, 1.0, target="All")  # Changed target to "All" for consistency
-bands_of_steel = Skill("Bands of Steel", "defense_increase", 10, 1.0, target="All")
-charge = Skill("Charge", "damage_increase", 10, 1.0, target="All")
-ranged_strike = Skill("Ranged Strike", "damage_increase", 10, 1.0, target="All")
+master_brawler = Skill("Master Brawler", "damage_increase", 10, 1.0, target="Lancer")  # Changed target to "All" for consistency
+bands_of_steel = Skill("Bands of Steel", "defense_increase", 10, 1.0, target="Lancer")
+charge = Skill("Charge", "damage_increase", 10, 1.0, target="Marksman")
+ranged_strike = Skill("Ranged Strike", "damage_increase", 10, 1.0, target="Infantry")
 
 # RNG Skills
-ambusher = Skill("Ambusher", "direct_attack", 0, 0.2, target="Back")
+ambusher = Skill("Ambusher", "direct_attack", 0, 0.2, target="Marksman")
 volley = Skill("Volley", "multi_attack", 0, 0.1)
 
 # Hero Skills
