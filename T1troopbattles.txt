@@ -1,0 +1,10 @@
+T1 Troop Stats
+
+Infantry:
+
+Attack: 1
+Defense: 4
+Lethality: 1
+Health: 6
+
+???Speed: 11??? - same for every troop type idk if a variable
