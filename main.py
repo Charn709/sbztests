@@ -319,7 +319,7 @@ def generate_battle_report(army_a, army_b, winner, total_turns):
 # Define troops and their skills
 
 # Static Skills
-master_brawler = Skill("Master Brawler", "damage_increase", 10, 1.0, target="Lancer")  # Changed target to "All" for consistency
+master_brawler = Skill("Master Brawler", "damage_increase", 10, 1.0, target="Lancer")  
 bands_of_steel = Skill("Bands of Steel", "defense_increase", 10, 1.0, target="Lancer")
 charge = Skill("Charge", "damage_increase", 10, 1.0, target="Marksman")
 ranged_strike = Skill("Ranged Strike", "damage_increase", 10, 1.0, target="Infantry")
@@ -364,10 +364,10 @@ dave_infantry = TroopType(
     base_health=15,
     count=60,
     bonuses={
-        'attack': 90.46 + vigor_tactics_attack + implacable_health,  # 90.46% + 15% + 10% = 115.46%
-        'defense': 69.05 + vigor_tactics_defense + implacable_defense,  # 69.05% + 10% + 10% = 89.05%
-        'lethality': 10.65,  # Assuming this is 10.65% lethality bonus
-        'health': 118.18 + rally_health_bonus + implacable_health  # 118.18% + 100% + 10% = 228.18%
+        'attack': 904.6 + vigor_tactics_attack + implacable_health,  
+        'defense': 690.5 + vigor_tactics_defense + implacable_defense,  #
+        'lethality': 1006.5,
+        'health': 1181.8 + rally_health_bonus + implacable_health 
     },
     static_skills=[master_brawler, bands_of_steel],
     rng_skills=[],
@@ -382,10 +382,10 @@ dave_lancer = TroopType(
     base_health=11,
     count=20,
     bonuses={
-        'attack': 83.08 + vigor_tactics_attack + implacable_health,  # 83.08% + 15% + 10% = 108.08%
-        'defense': 64.39 + vigor_tactics_defense + implacable_defense,  # 64.39% + 10% + 10% = 84.39%
-        'lethality': 8.496,  # 8.496% lethality bonus
-        'health': 94.31 + rally_health_bonus + implacable_health  # 94.31% + 100% + 10% = 204.31%
+        'attack': 830.8 + vigor_tactics_attack + implacable_health,  
+        'defense': 643.9 + vigor_tactics_defense + implacable_defense,  
+        'lethality': 849.6,  
+        'health': 943.1 + rally_health_bonus + implacable_health  # 
     },
     static_skills=[charge],
     rng_skills=[ambusher],
@@ -400,10 +400,10 @@ dave_marksman = TroopType(
     base_health=10,
     count=20,
     bonuses={
-        'attack': 82.65 + vigor_tactics_attack + implacable_health,  # 82.65% + 15% + 10% = 107.65%
-        'defense': 63.85 + vigor_tactics_defense + implacable_defense,  # 63.85% + 10% + 10% = 83.85%
-        'lethality': 8.478,  # 8.478% lethality bonus
-        'health': 95.66 + rally_health_bonus + implacable_health  # 95.66% + 100% + 10% = 205.66%
+        'attack': 826.5 + vigor_tactics_attack + implacable_health,  
+        'defense': 638.5 + vigor_tactics_defense + implacable_defense,  #
+        'lethality': 804.78, 
+        'health': 956.6 + rally_health_bonus + implacable_health  
     },
     static_skills=[ranged_strike],
     rng_skills=[volley],
@@ -419,10 +419,10 @@ brabo_infantry = TroopType(
     base_health=15,
     count=20,
     bonuses={
-        'attack': 77.95 + vigor_tactics_attack + implacable_health,  # 77.95% + 15% + 10% = 102.95%
-        'defense': 69.05 + vigor_tactics_defense + implacable_defense,  # 69.05% + 10% + 10% = 89.05%
-        'lethality': 9.892,  # 9.892% lethality bonus
-        'health': 82.47 + rally_health_bonus + implacable_health  # 82.47% + 100% + 10% = 192.47%
+        'attack': 779.5 + vigor_tactics_attack + implacable_health,  
+        'defense': 690.5 + vigor_tactics_defense + implacable_defense, 
+        'lethality': 989.2,  
+        'health': 824.7 + rally_health_bonus + implacable_health  
     },
     static_skills=[master_brawler, bands_of_steel],
     rng_skills=[],
@@ -437,10 +437,10 @@ brabo_lancer = TroopType(
     base_health=11,
     count=20,
     bonuses={
-        'attack': 69.91 + vigor_tactics_attack + implacable_health,  # 69.91% + 15% + 10% = 94.91%
-        'defense': 61.50 + vigor_tactics_defense + implacable_defense,  # 61.50% + 10% + 10% = 81.50%
-        'lethality': 8.523,  # 8.523% lethality bonus
-        'health': 71.28 + rally_health_bonus + implacable_health  # 71.28% + 100% + 10% = 181.28%
+        'attack': 699.1 + vigor_tactics_attack + implacable_health,  #
+        'defense': 615.0 + vigor_tactics_defense + implacable_defense,  # 
+        'lethality': 852.3,  
+        'health': 712.8 + rally_health_bonus + implacable_health  
     },
     static_skills=[charge],
     rng_skills=[ambusher],
@@ -455,10 +455,10 @@ brabo_marksman = TroopType(
     base_health=10,
     count=20,
     bonuses={
-        'attack': 74.97 + vigor_tactics_attack + implacable_health,  # 74.97% + 15% + 10% = 99.97%
-        'defense': 66.15 + vigor_tactics_defense + implacable_defense,  # 66.15% + 10% + 10% = 86.15%
-        'lethality': 9.076,  # 9.076% lethality bonus
-        'health': 75.21 + rally_health_bonus + implacable_health  # 75.21% + 100% + 10% = 185.21%
+        'attack': 749.7 + vigor_tactics_attack + implacable_health,  
+        'defense': 661.5 + vigor_tactics_defense + implacable_defense,  
+        'lethality': 907.6,  
+        'health': 752.1 + rally_health_bonus + implacable_health  
     },
     static_skills=[ranged_strike],
     rng_skills=[volley],
