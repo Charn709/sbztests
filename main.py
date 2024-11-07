@@ -1,3 +1,9 @@
+# NEW EFFECTIVE STATS MATH HAS NOT BEEN ADDED
+
+
+
+
+
 import random
 import math
 
