@@ -49,32 +49,38 @@ Effective Attack:
 EA = Base Attack × (1 + Attack Bonus / (Attack Bonus + 100))
 = 10 x (1 + 903.4 / (903.4 + 100))
 = 19
+
+EA = 10 x (1 + 903.4/100)
+EA = 10 x (1 + 9.03)
+EA = 10 x (10.03)
+EA = 100.34
+
 Dave's Infantry have an "effective" attack of 19 compared to the base of 10.
 
 Do this for the rest of the stats...
 
 Effective Defense
-ED = 13 × (1 + 690.5 / (690.5 + 100))
-= 13 × (1 + 690.5 / 790.5)
-= 13 × (1 + 0.874)
-= 13 × 1.874
-= 24.36
+ED = 13 x (1+690.5/100)
+690.5/100 = 6.905
+ED = 13 x (1 + 6.905)
+ED = 13 x 7.905
+ED = 102.76
+
 Dave's Infantry have an "effective" defense of 24.36 compared to the base of 13.
 
-Effective Lethality
-EL = 10 × (1 + 1065.1 / (1065.1 + 100))
-= 10 × (1 + 1065.1 / 1165.1)
-= 10 × (1 + 0.914)
-= 10 × 1.914
-= 19.14
-19.14 vs base of 10
+Effective Lethality - 1065.1
+EL = 10 x (1+1065.1/100)
+EL = 10 x (1 + 10.65)
+EL = 10 x 11.65
+EL = 116.5
 
-Effective Health
-EH = 15 × (1 + 1281.8 / (1281.8 + 100))
-blah blah blah
-b;ag blah
-= 28.91
-EH of 28.9 vs base of 15
+
+Effective Health - 1281.8
+EH = 15 × (1 + 1281.8/100)
+EH = 15 x (1 + 12.81)
+EH = 15 x 13.81
+EH = 207.15
+
 
 To make it more simple... every 100% in bonus = +1 base stat
 Attack with 300% (you get this in your battle report) will be +3. So your base attack is 13 vs the normal damage of 10.
