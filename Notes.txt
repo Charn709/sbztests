@@ -10,7 +10,7 @@ fml idk anymore
 
 
 ### These are the final formulas/theories. Not all math is explained on this page.
-Guide for wosnerds discord
+Guide/math explanation for wosnerds discord
 
 ------------- "Damage" Calculation
 Calculate Effective Troop Stats with Diminishing Returns
